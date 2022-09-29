@@ -1,0 +1,79 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  /* высота веб-страницы больше или равна высоте окна браузера */
+  margin: 0;
+  background: url(../image/waves.png) 0 100%/100% auto no-repeat;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /* если содержимое body меньше высоты окна, то section будет растянут до нужной величины */
+  white-space: pre-line;
+  -ms-flex-preferred-size: auto;
+}
+
+header {
+  margin-top: 35px;
+}
+header .logo h2 {
+  color: #20D261;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header .logo p {
+  margin-top: -15px;
+}
+header a {
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-size: 16px;
+  color: #000;
+  background-color: #20D261;
+}
+
+main {
+  margin-top: 10%;
+}
+main h2 {
+  width: 550px;
+  font-size: 40px;
+}
+main form {
+  margin-top: 20%;
+}
+main form input {
+  width: 100%;
+  border: 1px solid #20D261;
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-size: 24px;
+  color: #000;
+  padding-left: -20px;
+  background-color: #fff;
+}
+main form button {
+  border: none;
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-size: 24px;
+  color: #000;
+  background-color: #20D261;
+  margin-left: 20px;
+  width: 20%;
+}

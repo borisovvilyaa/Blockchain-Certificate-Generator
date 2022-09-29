@@ -1,0 +1,70 @@
+$green: #20D261;
+a {
+    text-decoration: none;
+}
+body {    
+    font-family: sans-serif;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* высота веб-страницы больше или равна высоте окна браузера */
+    margin: 0;
+    background: url(../image/waves.png) 0 100%/100% auto no-repeat;
+}
+main {
+  flex: 1; /* если содержимое body меньше высоты окна, то section будет растянут до нужной величины */
+  white-space: pre-line;
+  -ms-flex-preferred-size: auto;
+}
+
+header {
+    margin-top: 35px;
+    .logo {
+        h2 {
+            color:$green;
+            font-size: 48px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        p {
+            margin-top: -15px;
+        }
+    }
+    a {
+        padding: 10px 60px;
+        border-radius: 30px;
+        font-size: 16px;
+        color: #000;
+        background-color: $green;
+    }
+}
+main {
+    margin-top: 10%;
+    h2 {
+        width: 550px;
+        font-size: 40px;
+    }
+    form {
+        margin-top: 20%;
+        input {
+            width: 100%;
+            border: 1px solid $green;
+            padding: 10px 60px;
+            border-radius: 30px;
+            font-size: 24px;
+            color: #000;
+            padding-left: -20px;
+            background-color: #fff;
+        }
+        button {
+            border: none;
+            padding: 10px 60px;
+            border-radius: 30px;
+            font-size: 24px;
+            color: #000;
+            background-color: $green;
+            margin-left: 20px;
+            width: 20%;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "blockchain-generator.github.io",
+  "version": "0.0.1",
+  "description": "the site that generates blockchain certificates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisovvilyaa/blockchain-generator.github.io.git"
+  },
+  "keywords": [
+    "certificates",
+    "green",
+    "generator",
+    "blockchain"
+  ],
+  "author": "Borusov Illia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borisovvilyaa/blockchain-generator.github.io/issues"
+  },
+  "homepage": "https://github.com/borisovvilyaa/blockchain-generator.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
